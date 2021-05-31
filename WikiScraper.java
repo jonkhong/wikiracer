@@ -13,9 +13,7 @@ import java.util.regex.Pattern;
  * scraping the html and getting the url.
  */
 
-/*
- * TODO: You will have to implement memoization somewhere in this class.
- */
+
 public class WikiScraper {
 		private static HashMap<String,Set<String>> map = new HashMap<String,Set<String>>();
 	/*
