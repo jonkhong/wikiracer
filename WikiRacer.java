@@ -15,9 +15,7 @@ import java.util.Set;
  */
 public class WikiRacer {
 
-	/*
-	 * Do not edit this main function
-	 */
+	
 	public static void main(String[] args) {
 		List<String> ladder = findWikiLadder(args[0], args[1]);
 		System.out.println(ladder);
@@ -25,7 +23,6 @@ public class WikiRacer {
 	}
 
 	/*
-	 * Do not edit the method signature/header of this function
 	 * This method finds the wiki ladder result as a list and returns it.
 	 * It does this by using the max priority queue class and dequeing one ladder 
 	 * at a time checking the links on its page.
