@@ -9,10 +9,8 @@ import java.util.Set;
  * of Ladders which is a private class within this class. This priority queue is used in WikiRacer.java.
  */
 
-/*
- * TODO: This file should contain your priority queue backed by a binary
- * max-heap.
- */
+
+
 public class MaxPQ {
 	
 	// Ladder class
@@ -42,7 +40,7 @@ public class MaxPQ {
 		}
 	}
 	
-	//**************
+
 	private Ladder[] arr; // array of Ladders
     private int size;
     private int cap = 8;
@@ -84,7 +82,7 @@ public class MaxPQ {
 
     }
 
-    // System.out.println(Arrays.toString(arr));
+ 
 }
 
 /*
